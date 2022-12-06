@@ -1,0 +1,38 @@
+### Добавление вопроса 1
+POST http://localhost:8080/exam/java/add?question=q1&answer=a1
+
+### Добавление вопроса 2
+POST http://localhost:8080/exam/java/add?question=q2&answer=a2
+
+### Добавление вопроса 3
+POST http://localhost:8080/exam/java/add?question=q3&answer=a3
+
+### Добавление вопроса 4
+POST http://localhost:8080/exam/java/add?question=q4&answer=a4
+
+### Добавление вопроса 5
+POST http://localhost:8080/exam/java/add?question=q5&answer=a5
+
+### Добавление вопроса 6
+POST http://localhost:8080/exam/java/add?question=q6&answer=a6
+
+### Добавление вопроса 7
+POST http://localhost:8080/exam/java/add?question=q7&answer=a7
+
+### Добавление вопроса 8
+POST http://localhost:8080/exam/java/add?question=q8&answer=a8
+
+### Удаление вопроса 8
+DELETE http://localhost:8080/exam/java/remove?question=q8&answer=a8
+
+### Получение всех вопросов
+GET http://localhost:8080/exam/java
+
+### Получение случайных вопросов для экзамена
+GET http://localhost:8080/exam/4
+
+### Неправильный запрос на получение случайных вопросов для экзамена 1
+GET http://localhost:8080/exam/-4
+
+### Неправильный запрос на получение случайных вопросов для экзамена 2
+GET http://localhost:8080/exam/10
